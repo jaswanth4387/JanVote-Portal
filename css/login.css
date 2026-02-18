@@ -1,0 +1,91 @@
+/* ================= LOGIN PAGE ================= */
+
+body{
+    background: #f3f6fb;
+}
+
+.top-header{
+    background: #ffffff;
+    padding: 12px 0;
+    border-bottom: 3px solid #ff9933;
+}
+
+.main-logo{
+    height: 75px;
+}
+
+.portal-title{
+    margin: 0;
+    font-weight: 700;
+    color: #0b3d91;
+    margin-left: 340px;
+}
+
+.portal-subtitle{
+    color: #555;
+    font-size: 13px;
+    margin-left: 340px;
+
+}
+
+
+.main-navbar{
+    background: #0b3d91;
+    
+}
+.main-navbar .navbar-nav{
+    gap: 35px;   /* distance between menu items */
+}
+
+
+.main-navbar .nav-link{
+    color: white !important;
+    font-weight: 500;
+    padding: 12px 18px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.main-navbar .nav-link:hover{
+    background: #ff9933;
+    color: #000 !important;
+    border-radius: 5px;
+}
+
+/* Active page highlight */
+.main-navbar .nav-link.active{
+    background: #1aa34a;
+    border-radius: 5px;
+}
+
+/* login container spacing */
+.login-card{
+    border-radius: 14px;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    border: none;
+}
+
+/* heading */
+.login-card h3{
+    color: #0b3d91;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* labels */
+.login-card label{
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* input boxes */
+.login-card .form-control{
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #cfd6e6;
+    transition: 0.25s;
+}
+
+/* input fo*
