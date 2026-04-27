@@ -140,3 +140,8 @@ padding-bottom:160px;
 }
 
 }
+
+.selected {
+    border: 3px solid #198754;
+    background: #e8f8ed;
+}
